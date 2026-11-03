@@ -7,19 +7,13 @@ Run with: python ai_ml_basics.py
 
 Choose an exercise from the menu to practise Python basics.
 """
-
-# ============================================================
 # 1. INTRODUCTION TO AI, ML AND DEEP LEARNING
-# ============================================================
 # Artificial Intelligence (AI): The broad field of making machines
 # perform tasks that normally require human intelligence.
-#
 # Machine Learning (ML): A subset of AI where computers learn patterns
 # from data instead of being programmed with every rule.
-#
 # Deep Learning (DL): A subset of ML that uses neural networks with
 # multiple layers to learn complex patterns.
-#
 # Relationship: AI contains ML, and ML contains Deep Learning.
 
 
@@ -27,11 +21,7 @@ def show_ai_ml_dl_examples():
     print("\nAI example: A voice assistant responding to your question.")
     print("ML example: An email system learning to identify spam.")
     print("DL example: A neural network recognising objects in images.")
-
-
-# ============================================================
 # 2. VARIABLES AND DATA TYPES
-# ============================================================
 
 def variables_and_data_types():
     name = "Mohammed"       # string
@@ -49,20 +39,12 @@ def variables_and_data_types():
     print(type(age))
     print(type(cgpa))
     print(type(is_student))
-
-
-# ============================================================
 # 3. INPUT AND OUTPUT
-# ============================================================
 
 def input_output():
     name = input("\nEnter your name: ")
     print("Hello,", name, "! Welcome to Python.")
-
-
-# ============================================================
 # 4. CONDITIONS (IF-ELSE)
-# ============================================================
 
 def check_adult():
     age = int(input("\nEnter your age: "))
@@ -80,11 +62,7 @@ def check_even_or_odd():
         print(number, "is even.")
     else:
         print(number, "is odd.")
-
-
-# ============================================================
 # 5. LOOPS
-# ============================================================
 
 def for_loop_example():
     print("\nNumbers from 1 to 10:")
@@ -101,11 +79,7 @@ def while_loop_example():
         number -= 1
 
     print("Finished!")
-
-
-# ============================================================
 # 6. LISTS
-# ============================================================
 
 def list_example():
     fruits = ["apple", "banana", "mango"]
@@ -136,11 +110,7 @@ def function_example():
     name = input("\nEnter your name: ")
     message = greet(name)
     print(message)
-
-
-# ============================================================
 # 8. BEGINNER PYTHON PROGRAMS
-# ============================================================
 
 def add_two_numbers():
     first = float(input("\nEnter first number: "))
@@ -199,11 +169,7 @@ def simple_calculator():
             print("Cannot divide by zero.")
     else:
         print("Invalid operator.")
-
-
-# ============================================================
 # 9. PRACTICE MENU
-# ============================================================
 
 EXERCISES = {
     "1": ("AI, ML and DL examples", show_ai_ml_dl_examples),
